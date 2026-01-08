@@ -1,8 +1,5 @@
 # AI Decision Intelligence System – Customer Churn
 
-🔗 **Live Application:**  
-https://ai-decision-intelligence-churn-gn67pn2iibwx3bvl5o25ld.streamlit.app/
-
 ## 📌 Overview
 This project is a cloud-deployed AI Decision Intelligence system designed to help businesses
 identify customer churn risk, understand key drivers, and take data-driven retention actions.
@@ -40,3 +37,15 @@ explainability, prioritization, and actionable recommendations.
 5. Take recommended retention actions
 
 ## 📂 Project Structure
+app.py → Streamlit dashboard
+decision_engine.py → Decision & recommendation logic
+churn_model.pkl → Trained churn prediction model
+features.pkl → Model feature list
+requirements.txt → Dependencies
+
+
+## 📈 Future Enhancements
+- Role-based dashboards (Manager vs Analyst)
+- Automated alerting for high-risk customers
+- Model retraining with new data
+- Integration with CRM systems
